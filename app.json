@@ -1,12 +1,32 @@
 {
-  "pages":[
+  "pages": [
     "pages/index/index",
+    "pages/us/us",
     "pages/logs/logs"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window":
+  {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle":"black"
+    "navigationBarTitleText": "南京指南针科技有限公司",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar":
+  {
+    "list": [
+    {
+      "pagePath": "pages/index/index",
+      "iconPath": "assets/image/home.png",
+      "selectedIconPath": "assets/image/home-active.png",
+      "text": "首页"
+    },
+    {
+      "pagePath": "pages/us/us",
+      "iconPath": "assets/image/us.png",
+      "selectedIconPath": "assets/image/us-active.png",
+      "text": "我们"
+    }],
+    "backgroundColor": "#fff",
+    "selectedColor": "#409ee9"
   }
 }

@@ -1,21 +1,46 @@
-/**index.wxss**/
-.userinfo {
+@import '../../assets/libs/animate.wxss';
+.slide-image-box {
+  width: 100%;
+  height: 250rpx;
+}
+
+.slide-image-box image {
+  width: 100%;
+  height: 100%;
+}
+
+.feature {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-wrap: wrap;
+  align-content: space-between;
+  padding: 0 50rpx;
+  margin-top: 40rpx;
 }
 
-.userinfo-avatar {
-  width: 128rpx;
-  height: 128rpx;
-  margin: 20rpx;
-  border-radius: 50%;
+.feature .column {
+  flex-basis: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 
-.userinfo-nickname {
-  color: #aaa;
+.feature .column:first-child {
+  margin-bottom: 40rpx;
 }
 
-.usermotto {
-  margin-top: 200px;
+.feature .item {
+  width: 45%;
+}
+
+.feature text {
+  display: block;
+  font-size: 12px;
+  text-align: justify;
+}
+
+.feature text:first-child {
+  height: 30px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #409ee9;
+  text-align: center;
 }

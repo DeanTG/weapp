@@ -1,13 +1,32 @@
 <!--index.wxml-->
 <view class="container">
-  <view class="userinfo">
-    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
-    <block wx:else>
-      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
-      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+  <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for="{{imgUrls}}" wx:key="">
+      <swiper-item class="slide-image-box">
+        <image src="{{item}}" class="slide-image" width="100%" height="100%" />
+      </swiper-item>
     </block>
-  </view>
-  <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
+  </swiper>
+  <view class="feature">
+    <view class="column">
+      <view class="item animated rotateInDownLeft">
+        <text>一体化服务</text>
+        <text>需求分析/原型构架/UI设计程序开发/测试上线/迭代维护</text>
+      </view>
+      <view class="item animated rotateInDownRight">
+        <text>全站式需求满足</text>
+        <text>iOS开发/Android开发/Web开发/微商城、官微开发</text>
+      </view>
+    </view>
+    <view class="column">
+      <view class="item animated rotateInUpLeft">
+        <text>用户体验细节</text>
+        <text>从需求分析到界面交互、UI细节我们从最佳用户体验出发以专业知识完善每个体验细节</text>
+      </view>
+      <view class="item animated rotateInUpRight">
+        <text>完美解决方案</text>
+        <text>快速打造优秀产品是我们的追求和价值所在</text>
+      </view>
+    </view>
   </view>
 </view>

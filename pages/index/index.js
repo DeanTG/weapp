@@ -47,5 +47,11 @@ Page({
       userInfo: e.detail.userInfo,
       hasUserInfo: true
     })
+  },
+  toDetails(e) {
+    let id = getApp().caseId = e.currentTarget.id
+    wx.navigateTo({
+      url: '../detail/detail?id'+id
+    })
   }
 })

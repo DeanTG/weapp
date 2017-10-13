@@ -2,6 +2,7 @@
   "pages": [
     "pages/index/index",
     "pages/us/us",
+    "pages/detail/detail",
     "pages/logs/logs"
   ],
   "window":

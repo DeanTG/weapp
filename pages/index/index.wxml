@@ -7,6 +7,7 @@
       </swiper-item>
     </block>
   </swiper>
+  <text class="title">服务</text>
   <view class="feature">
     <view class="column">
       <view class="item animated rotateInDownLeft">
@@ -28,5 +29,107 @@
         <text>快速打造优秀产品是我们的追求和价值所在</text>
       </view>
     </view>
+  </view>
+  <text class="title">擅长</text>
+  <view class="specialty">
+    <view class="item">
+      <image src="http://www.znzkj.com.cn/img/blc_ios.png"></image>
+    </view>
+    <view class="item">
+      <image src="http://www.znzkj.com.cn/img/blc_and.png"></image>
+    </view>
+    <view class="item">
+      <image src="http://www.znzkj.com.cn/img/blc_web.png"></image>
+    </view>
+  </view>
+  <text class="title">案例</text>
+  <view class="case">
+    <view class="column">
+      <view class="item" bindtap="toDetails" id="1">
+        <image src="http://www.znzkj.com.cn/img/listpic_1xin.png"></image>
+        <text class="item-title">芯依福</text>
+        <text>智慧医疗解决方案</text>
+      </view>
+      <view class="item" bindtap="toDetails" id="2">
+        <image src="http://www.znzkj.com.cn/img/listpic_2cao.png"></image>
+        <text class="item-title">潮生活</text>
+        <text>掌上便利店半小时速达</text>
+      </view>
+    </view>
+    <view class="column">
+      <view class="item" bindtap="toDetails" id="3">
+        <image src="http://www.znzkj.com.cn/img/listpic_3hao.png"></image>
+        <text class="item-title">好学升</text>
+        <text>让升学择校更简单</text>
+      </view>
+      <view class="item" bindtap="toDetails" id="4">
+        <image src="http://www.znzkj.com.cn/img/listpic_4hong.png"></image>
+        <text class="item-title">红酒世界</text>
+        <text>全球葡萄酒搜索越懂越喜欢</text>
+      </view>
+    </view>
+    <view class="column">
+      <view class="item" bindtap="toDetails" id="5">
+        <image src="http://www.znzkj.com.cn/img/listpic_5qi.png"></image>
+        <text class="item-title">齐家</text>
+        <text>让装修像喝茶一样简单</text>
+      </view>
+      <view class="item" bindtap="toDetails" id="6">
+        <image src="http://www.znzkj.com.cn/img/listpic_6zhuang.png"></image>
+        <text class="item-title">装修伙伴</text>
+        <text>随时随地咨询装修问题，3分钟获取最专业答案</text>
+      </view>
+    </view>
+    <view class="column">
+      <view class="item" bindtap="toDetails" id="7">
+        <image src="http://www.znzkj.com.cn/img/listpic_7wei.png"></image>
+        <text class="item-title">未来e家</text>
+        <text>以科技创造未来</text>
+      </view>
+      <view class="item" bindtap="toDetails" id="8">
+        <image src="http://www.znzkj.com.cn/img/listpic_8cai.png"></image>
+        <text class="item-title">彩虹育儿</text>
+        <text>贴心母婴问诊健康育儿专家</text>
+      </view>
+    </view>
+  </view>
+  <text class="title">项目流程</text>
+  <view class="flow">
+    <view class="wave waveTop"></view>
+    <view class="pic">
+    </view>
+    <view class="flowItemWrapper">
+      <view class="flowItemBox">
+        <view class="flowItem">
+          <view class="flowItem-title">
+            <text>I</text>
+            <text>原型交互设计</text>
+          </view>
+          <text>在准确理解产品性质、确认产品功能后，产品经理绘制原型。详细的原型作为目标产品Demo版，可以体现产品全部的功能和交互，以便客户和我们确认最终的需求和结构。</text>
+        </view>
+        <view class="flowItem">
+          <view class="flowItem-title">
+            <text>II</text>
+            <text>UI界面设计</text>
+          </view>
+          <text>界面和交互的设计客户和用户直接体验/使用的服务。界面的设计在同质化产品较多的状况下，优秀突出的用户使用界面，是在同类产品中突围的关键。</text>
+        </view>
+        <view class="flowItem">
+          <view class="flowItem-title">
+            <text>III</text>
+            <text>程序开发</text>
+          </view>
+          <text>程序开发是产品最终实现的最关键一步，通常也是最耗时的阶段。开发团队的质量的速度对产品的品质和上线速度以及后期升级维护都有很大影响。我们较多的开发经验和项目背景将有助您的产品快速的实现、动作。</text>
+        </view>
+        <view class="flowItem">
+          <view class="flowItem-title">
+            <text>IV</text>
+            <text>测试上线</text>
+          </view>
+          <text>开发后的测试是保证产品质量和功能的关卡，我们的测试工作确保了我们提供给客户的产品程序是较为成熟的程序。</text>
+        </view>
+      </view>
+    </view>
+    <view class="wave waveBottom"></view>
   </view>
 </view>

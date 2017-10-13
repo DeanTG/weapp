@@ -112,5 +112,10 @@ Page({
       default:
         break;
     }
+  },
+  phone() {
+    wx.makePhoneCall({
+      phoneNumber: '18616363466'
+    })
   }
 })
